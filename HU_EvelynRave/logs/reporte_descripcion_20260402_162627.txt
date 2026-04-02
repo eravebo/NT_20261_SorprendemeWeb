@@ -1,0 +1,22 @@
+REPORTE DE DESCRIPCIÓN - DATASET PRODUCTOS
+
+ESTRUCTURA
+- Filas: 1047
+- Columnas: 8
+- Nombres: ['id', 'nombre', 'descripcion', 'precio', 'categoria', 'imagen_url', 'stock', 'fecha_creacion']
+
+TIPOS DE DATOS
+- Numéricas: ['id', 'precio', 'stock']
+- Categóricas: ['nombre', 'descripcion', 'categoria', 'imagen_url']
+- Fechas: ['fecha_creacion']
+
+ESTADÍSTICAS NUMÉRICAS
+- Precio promedio: 181277.94
+- Stock mínimo: 0
+- Stock máximo: 200
+- Rango de fechas: 2024-01-04 00:00:00 a 2026-12-01 00:00:00
+
+ESTADÍSTICAS CATEGÓRICAS
+- Categorías únicas: 3
+- Nombre más frecuente: Panda Pequeño
+- Registros sin descripción original: 220

@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime
 import os
 
-df = pd.read_csv('BD_Simulacion/productos_dataset.csv', encoding='utf-8-sig', sep=';')
+df = pd.read_csv('HU_EvelynRave/BD_Simulacion/productos_dataset.csv', encoding='utf-8-sig', sep=';')
 registros_originales = df.shape[0]
 columnas_originales = df.shape[1]
 
@@ -77,11 +77,12 @@ DATASET FINAL
 - Columnas: {df.shape[1]}
 - Nulos restantes: {df.isnull().sum().sum()}
 """
-os.makedirs("BD_LimpiezaDataSet", exist_ok=True)
-log_filename = f"BD_LimpiezaDataSet/reporte_limpieza_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+os.makedirs("HU_EvelynRave/logs", exist_ok=True)
+log_filename = f"HU_EvelynRave/logs/reporte_limpieza_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
 
 with open(log_filename, 'w', encoding='utf-8') as archivo:
     archivo.write(log)
 
-df.to_csv('BD_LimpiezaDataSet/productos_limpio.csv', index=False, encoding='utf-8-sig', sep=';')
-df.to_json('BD_LimpiezaDataSet/productos_limpio.json', orient='records', force_ascii=False, indent=2)
+os.makedirs("HU_EvelynRave/BD_LimpiezaDataSet", exist_ok=True)
+df.to_csv('HU_EvelynRave/BD_LimpiezaDataSet/productos_limpio.csv', index=False, encoding='utf-8-sig', sep=';')
+df.to_json('HU_EvelynRave/BD_LimpiezaDataSet/productos_limpio.json', orient='records', force_ascii=False, indent=2)

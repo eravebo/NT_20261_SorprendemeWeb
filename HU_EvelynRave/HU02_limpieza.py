@@ -36,6 +36,7 @@ ejemplo_nombre_antes = df[['nombre']].iloc[10]
 df['nombre'] = df['nombre'].str.title()
 categorias_antes = df['categoria'].unique().tolist()
 df['categoria'] = df['categoria'].str.lower()
+df['precio'] = df['precio'].round(0).astype(int)
 
 
 #unificación de formatos de fecha

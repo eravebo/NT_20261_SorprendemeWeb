@@ -55,7 +55,7 @@ TIPOS DE DATOS
 - Fechas: {fechas.columns.tolist()}
 
 ESTADÍSTICAS NUMÉRICAS
-- Precio promedio: {round(df['precio'].mean(), 2)}
+- Precio promedio: {df['precio'].mean().__round__(0).astype(int)}
 - Stock mínimo: {df['stock'].min()}
 - Stock máximo: {df['stock'].max()}
 - Rango de fechas: {df['fecha_creacion'].min()} a {df['fecha_creacion'].max()}

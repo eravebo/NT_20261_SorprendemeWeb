@@ -11,7 +11,7 @@ TIPOS DE DATOS
 - Fechas: ['fecha_creacion']
 
 ESTADÍSTICAS NUMÉRICAS
-- Precio promedio: 181277.94
+- Precio promedio: 181278
 - Stock mínimo: 0
 - Stock máximo: 200
 - Rango de fechas: 2024-01-04 00:00:00 a 2026-12-01 00:00:00

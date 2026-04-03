@@ -1,0 +1,32 @@
+REPORTE DE TRANSFORMACIÓN CON QUERY - DATASET PRODUCTOS
+DATASET BASE
+- Registros totales: 1047
+
+CONSULTAS REALIZADAS
+
+1. FLORES BARATAS PARA PROMOCIONES
+   - Condición: categoria == "flores" and precio < 50000
+   - Registros encontrados: 38
+   - Precio máximo encontrado: 49368
+
+2. PRODUCTOS AGOTADOS
+   - Condición: stock == 0
+   - Registros encontrados: 2
+
+3. ANCHETAS PREMIUM CON STOCK
+   - Condición: categoria == "ancheta" and precio > 200000 and stock > 0
+   - Registros encontrados: 146
+   - Precio mínimo encontrado: 200827
+
+4. STOCK CRÍTICO
+   - Condición: stock > 0 and stock < 10
+   - Registros encontrados: 43
+   - Rango de stock: 1 a 9
+
+5. PRODUCTOS NO PELUCHES PARA PAQUETES DIFERENTES
+   - Condición: categoria != "peluche" and precio >= 80000 and precio <= 150000
+   - Registros encontrados: 121
+   - Categorías incluidas: ['ancheta', 'flores']
+
+VALIDACIÓN
+- Todos los filtros retornaron registros dentro del rango esperado

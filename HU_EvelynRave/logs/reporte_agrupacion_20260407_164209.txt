@@ -1,0 +1,46 @@
+REPORTE DE AGRUPACIONES - DATASET PRODUCTOS
+
+DATASET BASE
+- Registros totales: 1047
+- Categorías analizadas: ['peluche', 'ancheta', 'flores']
+
+AGRUPACIÓN 1: RESUMEN POR CATEGORÍA
+           total_productos  precio_promedio  precio_minimo  precio_maximo  stock_promedio
+categoria                                                                                
+ancheta                323         178733.0          16784         348927            99.0
+flores                 361         180160.0          15859         349118            97.0
+peluche                363         184653.0          15524         349104           104.0
+
+AGRUPACIÓN 2: STOCK POR CATEGORÍA
+           stock_total  stock_promedio  agotados
+categoria                                       
+ancheta          31931            99.0         1
+flores           35004            97.0         1
+peluche          37868           104.0         0
+
+AGRUPACIÓN 3: EXTREMOS DE PRECIO
+- ancheta:  más caro Ancheta Con Peluche Y Frutas | más barato Ancheta Con Peluche Y Frutas
+- flores:   más caro Ramo Sencillo | más barato Bouquet Con Girasoles
+- peluche:  más caro Panda Pequeño | más barato Panda Pequeño
+
+AGRUPACIÓN 4: DISTRIBUCIÓN POR RANGO DE PRECIO
+   rango_precio categoria  total
+0     económico   ancheta     38
+1     económico    flores     38
+2     económico   peluche     34
+3         medio   ancheta     95
+4         medio    flores    102
+5         medio   peluche    103
+6       premium   ancheta     93
+7       premium    flores    121
+8       premium   peluche    117
+9          lujo   ancheta     97
+10         lujo    flores    100
+11         lujo   peluche    109
+
+AGRUPACIÓN 5: RESUMEN EJECUTIVO
+           total_productos  precio_promedio  ingreso_potencial  stock_total  productos_agotados  productos_criticos
+categoria                                                                                                          
+ancheta                323         178733.0           57730897        31931                   1                  16
+flores                 361         180160.0           65037933        35004                   1                  15
+peluche                363         184653.0           67029154        37868                   0                  12

@@ -1,0 +1,32 @@
+
+REPORTE DE LIMPIEZA - DATASET PEDIDOS
+
+DATASET ORIGINAL
+- Registros: 5
+- Columnas : 9
+
+TRANSFORMACIONES REALIZADAS
+
+1. NULOS
+   - Columna 'mp_payment_id': 2 nulos rellenados con 'Sin procesar'
+   - Columna 'mp_status'    : 0 nulos rellenados con 'Sin procesar'
+
+2. DUPLICADOS
+   - 1 registros eliminados
+   - Criterio: se conservó la primera aparición por id
+
+3. NORMALIZACIÓN DE TEXTO
+   - Columna 'estado' normalizada a minúsculas
+   - Columna 'email' normalizada a minúsculas
+   - Estados válidos encontrados: {'pendiente', 'aprobado', 'rechazado'}
+
+4. FECHAS
+   - Tipo antes   : str
+   - Ejemplo antes: 30/11/2022
+   - Tipo después : datetime64[us]
+   - Ejemplo después: 2022-11-30 00:00:00
+
+DATASET FINAL
+- Registros     : 4
+- Columnas      : 9
+- Nulos restantes: 0

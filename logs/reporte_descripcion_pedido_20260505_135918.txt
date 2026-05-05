@@ -1,0 +1,22 @@
+REPORTE DE DESCRIPCIÓN - DATASET PEDIDOS
+
+ESTRUCTURA
+- Filas   : 1044
+- Columnas: 9
+- Nombres : ['id', 'nombre_cliente', 'telefono', 'email', 'direccion_envio', 'fecha', 'estado', 'mp_payment_id', 'mp_status']
+
+TIPOS DE DATOS
+- Numéricas  : ['id']
+- Categóricas: ['nombre_cliente', 'telefono', 'email', 'direccion_envio', 'estado', 'mp_payment_id', 'mp_status']
+- Fechas     : ['fecha']
+
+ESTADÍSTICAS
+- Rango de fechas: 2022-01-03 00:00:00 a 2024-12-31 00:00:00
+
+DISTRIBUCIÓN POR ESTADO
+estado
+aprobado     561
+pendiente    320
+rechazado    163
+
+- Pedidos sin procesar por MercadoPago: 157

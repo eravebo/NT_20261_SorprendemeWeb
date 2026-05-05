@@ -1,0 +1,44 @@
+REPORTE DE AGRUPACIÓN CON GROUPBY - DATASET PEDIDOS
+
+1. POR ESTADO
+   estado  total_pedidos
+ aprobado            561
+pendiente            320
+rechazado            163
+
+2. POR AÑO Y ESTADO
+ anio    estado  total_pedidos
+ 2022  aprobado            172
+ 2022 pendiente            105
+ 2022 rechazado             55
+ 2023  aprobado            199
+ 2023 pendiente            111
+ 2023 rechazado             52
+ 2024  aprobado            190
+ 2024 pendiente            104
+ 2024 rechazado             56
+
+3. POR MES 2024
+mes_nombre  total_pedidos
+     Enero             29
+   Febrero             35
+     Marzo             22
+     Abril             31
+      Mayo             32
+     Junio             23
+     Julio             22
+    Agosto             33
+Septiembre             28
+   Octubre             30
+ Noviembre             29
+ Diciembre             36
+
+4. POR ESTADO MERCADOPAGO
+   mp_status  total
+    approved    561
+     pending    163
+    rejected    163
+Sin procesar    157
+
+RESUMEN
+- Total: 1044 | Aprobados: 561 | Pendientes: 320 | Rechazados: 163

@@ -24,7 +24,7 @@ BARRIOS        = ["Laureles","El Poblado","Belén","Envigado","Sabaneta","Itagü
 CALLES         = ["Cra","Cl","Av","Diagonal","Transversal"]
 ESTADOS        = ["pendiente","aprobado","rechazado"]
 PESOS_ESTADO   = [0.30, 0.55, 0.15]
-FORMATOS_FECHA = ['%Y-%m-%d', '%d/%m/%Y', '%d-%m-%Y', '%m/%d/%Y']
+FORMATOS_FECHA = ['%Y-%m-%d %H:%M', '%d/%m/%Y %H:%M', '%d-%m-%Y %H:%M', '%m/%d/%Y %H:%M']
 
 
 def _generar_telefono():

@@ -29,18 +29,14 @@
   },
   {
     "fecha_creacion":1707091200000,
-    "conteo":2
-  },
-  {
-    "fecha_creacion":1707350400000,
-    "conteo":2
-  },
-  {
-    "fecha_creacion":1707523200000,
     "conteo":1
   },
   {
-    "fecha_creacion":1707696000000,
+    "fecha_creacion":1707350400000,
+    "conteo":1
+  },
+  {
+    "fecha_creacion":1707523200000,
     "conteo":1
   },
   {
@@ -81,7 +77,7 @@
   },
   {
     "fecha_creacion":1709510400000,
-    "conteo":1
+    "conteo":2
   },
   {
     "fecha_creacion":1709769600000,
@@ -89,10 +85,6 @@
   },
   {
     "fecha_creacion":1710028800000,
-    "conteo":2
-  },
-  {
-    "fecha_creacion":1710115200000,
     "conteo":1
   },
   {
@@ -112,7 +104,7 @@
     "conteo":1
   },
   {
-    "fecha_creacion":1712102400000,
+    "fecha_creacion":1712448000000,
     "conteo":1
   },
   {
@@ -121,7 +113,7 @@
   },
   {
     "fecha_creacion":1712793600000,
-    "conteo":2
+    "conteo":1
   },
   {
     "fecha_creacion":1712880000000,
@@ -160,8 +152,12 @@
     "conteo":1
   },
   {
+    "fecha_creacion":1714608000000,
+    "conteo":1
+  },
+  {
     "fecha_creacion":1715385600000,
-    "conteo":2
+    "conteo":1
   },
   {
     "fecha_creacion":1715472000000,
@@ -192,12 +188,8 @@
     "conteo":1
   },
   {
-    "fecha_creacion":1717804800000,
-    "conteo":1
-  },
-  {
     "fecha_creacion":1717977600000,
-    "conteo":1
+    "conteo":2
   },
   {
     "fecha_creacion":1718150400000,
@@ -236,11 +228,11 @@
     "conteo":2
   },
   {
-    "fecha_creacion":1720051200000,
+    "fecha_creacion":1720137600000,
     "conteo":1
   },
   {
-    "fecha_creacion":1720137600000,
+    "fecha_creacion":1720483200000,
     "conteo":1
   },
   {
@@ -265,6 +257,14 @@
   },
   {
     "fecha_creacion":1722470400000,
+    "conteo":1
+  },
+  {
+    "fecha_creacion":1722556800000,
+    "conteo":1
+  },
+  {
+    "fecha_creacion":1722902400000,
     "conteo":1
   },
   {
@@ -301,7 +301,7 @@
   },
   {
     "fecha_creacion":1725667200000,
-    "conteo":2
+    "conteo":1
   },
   {
     "fecha_creacion":1726185600000,
@@ -333,11 +333,11 @@
   },
   {
     "fecha_creacion":1727913600000,
-    "conteo":1
+    "conteo":2
   },
   {
     "fecha_creacion":1728172800000,
-    "conteo":2
+    "conteo":1
   },
   {
     "fecha_creacion":1728345600000,
@@ -385,6 +385,14 @@
   },
   {
     "fecha_creacion":1730592000000,
+    "conteo":2
+  },
+  {
+    "fecha_creacion":1730678400000,
+    "conteo":1
+  },
+  {
+    "fecha_creacion":1730764800000,
     "conteo":1
   },
   {
@@ -413,6 +421,10 @@
   },
   {
     "fecha_creacion":1732492800000,
+    "conteo":1
+  },
+  {
+    "fecha_creacion":1733097600000,
     "conteo":1
   },
   {
@@ -461,7 +473,7 @@
   },
   {
     "fecha_creacion":1735862400000,
-    "conteo":1
+    "conteo":2
   },
   {
     "fecha_creacion":1736121600000,
@@ -470,6 +482,10 @@
   {
     "fecha_creacion":1736208000000,
     "conteo":1
+  },
+  {
+    "fecha_creacion":1736553600000,
+    "conteo":2
   },
   {
     "fecha_creacion":1736640000000,
@@ -516,6 +532,14 @@
     "conteo":1
   },
   {
+    "fecha_creacion":1738627200000,
+    "conteo":1
+  },
+  {
+    "fecha_creacion":1738800000000,
+    "conteo":1
+  },
+  {
     "fecha_creacion":1739232000000,
     "conteo":1
   },
@@ -540,10 +564,6 @@
     "conteo":1
   },
   {
-    "fecha_creacion":1740787200000,
-    "conteo":1
-  },
-  {
     "fecha_creacion":1740960000000,
     "conteo":1
   },
@@ -552,12 +572,8 @@
     "conteo":1
   },
   {
-    "fecha_creacion":1741478400000,
-    "conteo":1
-  },
-  {
     "fecha_creacion":1741564800000,
-    "conteo":1
+    "conteo":2
   },
   {
     "fecha_creacion":1741651200000,
@@ -588,16 +604,16 @@
     "conteo":1
   },
   {
-    "fecha_creacion":1743552000000,
-    "conteo":1
-  },
-  {
     "fecha_creacion":1743724800000,
     "conteo":1
   },
   {
     "fecha_creacion":1743811200000,
     "conteo":2
+  },
+  {
+    "fecha_creacion":1744070400000,
+    "conteo":1
   },
   {
     "fecha_creacion":1744156800000,
@@ -629,10 +645,6 @@
   },
   {
     "fecha_creacion":1746316800000,
-    "conteo":1
-  },
-  {
-    "fecha_creacion":1747008000000,
     "conteo":1
   },
   {
@@ -670,10 +682,6 @@
   {
     "fecha_creacion":1748563200000,
     "conteo":2
-  },
-  {
-    "fecha_creacion":1748822400000,
-    "conteo":1
   },
   {
     "fecha_creacion":1748995200000,
@@ -740,6 +748,10 @@
     "conteo":1
   },
   {
+    "fecha_creacion":1752278400000,
+    "conteo":1
+  },
+  {
     "fecha_creacion":1752364800000,
     "conteo":2
   },
@@ -777,10 +789,6 @@
   },
   {
     "fecha_creacion":1754179200000,
-    "conteo":1
-  },
-  {
-    "fecha_creacion":1754265600000,
     "conteo":1
   },
   {
@@ -832,6 +840,10 @@
     "conteo":1
   },
   {
+    "fecha_creacion":1756857600000,
+    "conteo":1
+  },
+  {
     "fecha_creacion":1756944000000,
     "conteo":1
   },
@@ -864,10 +876,6 @@
     "conteo":1
   },
   {
-    "fecha_creacion":1759449600000,
-    "conteo":1
-  },
-  {
     "fecha_creacion":1759622400000,
     "conteo":1
   },
@@ -890,10 +898,6 @@
   {
     "fecha_creacion":1761782400000,
     "conteo":1
-  },
-  {
-    "fecha_creacion":1761955200000,
-    "conteo":2
   },
   {
     "fecha_creacion":1762214400000,
@@ -948,7 +952,7 @@
     "conteo":1
   },
   {
-    "fecha_creacion":1765065600000,
+    "fecha_creacion":1764892800000,
     "conteo":1
   },
   {

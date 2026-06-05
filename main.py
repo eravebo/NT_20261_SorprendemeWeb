@@ -15,9 +15,17 @@ from utils.graficacion    import (
 
 # ─────────────────────────────────────────────────────────────
 # IMPORTS — ANDRÉS QUINTERO (tabla PEDIDO)
-from utils.simulacion_pedido  import generar_simulacion_pedido
-from utils.limpieza_pedido    import limpiar_datos_pedido
-from utils.descripcion_pedido import describir_datos_pedido
+from utils.simulacion_pedido    import generar_simulacion_pedido
+from utils.limpieza_pedido      import limpiar_datos_pedido
+from utils.descripcion_pedido   import describir_datos_pedido
+from utils.transformacion_pedido import transformar_datos_pedido
+from utils.graficacion_pedido   import (
+    graficar_pedidos_por_fecha,
+    graficar_pedidos_por_estado,
+    graficar_distribucion_mp_status,
+    graficar_estado_por_mes,
+    graficar_horas_pedido
+)
 
 
 # EVELYN RAVE — tabla PRODUCTO
@@ -99,6 +107,37 @@ print("\n" + "="*60)
 print("  ANDRÉS QUINTERO — Tabla PEDIDO")
 print("="*60)
 
+# ETAPA 1: Simulación (reemplazar por consumir_pedidos() cuando el back esté corriendo)
 df_pedidos_crudo  = generar_simulacion_pedido(1300)
+
+# ETAPA 2: Limpieza
 df_pedidos_limpio = limpiar_datos_pedido(df_pedidos_crudo)
+
+# ETAPA 3: Descripción
 describir_datos_pedido(df_pedidos_limpio)
+
+# ETAPA 4: Transformación y exportación de JSON
+agrupaciones_pedido = transformar_datos_pedido(df_pedidos_limpio)
+
+# ETAPA 5: Graficación — genera 5 gráficas como PNG en frontend/src/assets/graficos/
+
+print("\n*** GRAFICACION ***")
+
+# Gráfica 1 — Líneas: pedidos registrados por fecha
+graficar_pedidos_por_fecha(agrupaciones_pedido["agrupacion1"])
+
+# Gráfica 2 — Barras: cantidad de pedidos por estado
+graficar_pedidos_por_estado(agrupaciones_pedido["agrupacion2"])
+
+# Gráfica 3 — Torta: distribución del estado de pago MercadoPago
+graficar_distribucion_mp_status(agrupaciones_pedido["agrupacion5"])
+
+# Gráfica 4 — Mapa de calor: pedidos por mes y estado
+graficar_estado_por_mes(agrupaciones_pedido["agrupacion3"])
+
+# Gráfica 5 — Histograma: distribución de pedidos por hora del día
+graficar_horas_pedido(df_pedidos_limpio)
+
+print("\n✅ Pipeline de pedidos completado.")
+print("   PNG → frontend/src/assets/graficos/")
+print("   JSON → BD_Analisis/")

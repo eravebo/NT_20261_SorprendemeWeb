@@ -31,7 +31,19 @@ def graficar_lineas(datos_agrupados, columna_eje_x, columna_eje_y,
     area_dibujo.set_xlabel(columna_eje_x, fontsize=12)
     area_dibujo.set_ylabel(columna_eje_y, fontsize=12)
     area_dibujo.grid(True, linestyle="--", alpha=0.6)
-    plt.xticks(rotation=45)
+
+    n = len(datos_agrupados[columna_eje_x])
+    if n > 20:
+        step = max(1, n // 12)
+        indices = list(range(0, n, step))
+        area_dibujo.set_xticks(indices)
+        area_dibujo.set_xticklabels(
+            [datos_agrupados[columna_eje_x].iloc[i] for i in indices],
+            rotation=45, ha="right"
+        )
+    else:
+        plt.xticks(rotation=45)
+
     plt.tight_layout()
 
     ruta_completa = os.path.join(ruta_destino, nombre_archivo)
